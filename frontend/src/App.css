@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(18, 17, 17);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding: 50px 0px;
+}
+
+h1 {
+  color: antiquewhite;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 42px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: black;
+  padding: 25px 65px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 25px rgba(34, 34, 34, 0.844);
+  border: 1px solid black;
+}
+
+form label{
+  display: flex;
+  gap: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form input {
+  border: 0;
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: white;
+}
+
+form span {
+  color: white;
+  background-color: black;
+}
+
+form #number {
+  width: 45px;
+  padding: 0;
+}
+
+form button{
+  background: linear-gradient(rgb(16, 15, 23), rgb(20, 20, 29));
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+h2{
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
